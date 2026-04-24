@@ -18,7 +18,7 @@ export default function Header (){
             <div className="flex justify-between">
                 <div className="w-[150px]">
                     <span className="leading-[143%] text-[12px] text-white opacity-[0.6]">Our Clients</span>
-                    <p className="text-white leading-[156%] text-[16px] font-medium w-[150px]">We've Worked with</p>
+                    <p className="text-white leading-[156%] text-[15px] font-medium w-[150px]">We've Worked with</p>
                 </div>
                 <img className="w-[130px] h-[70px]" src="./images/Logo (2).png" alt="" />
                 <img className="w-[130px] h-[70px]" src="./images/Logo (3).png" alt="" />
