@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         <footer className="flex flex-col relative">
-            <div className="flex flex-col w-[80%] m-auto gap-5 py-10 relative">
+            <div className="flex flex-col w-[80%] m-auto gap-5 py-20 relative">
                 <div className="flex justify-between">
                     <div className="flex flex-col w-[353px]">
                         <h2 className="text-[#232536] text-[36px] font-semibold leading-[121%]">Let's make something special</h2>
@@ -10,28 +10,28 @@ export default function Footer(){
                         <p className="text-[#232536] text-[16px] font-normal leading-[156%]">hi@finsweet.com</p>
                     </div>
                     <ul>
-                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="">Home</a></li>
-                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="">Service</a></li>
-                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="">Company</a></li>
-                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="">Career</a></li>
-                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="">News</a></li>
+                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="/">Home</a></li>
+                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="/service">Service</a></li>
+                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="/company">Company</a></li>
+                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="/career">Career</a></li>
+                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="/blog">News</a></li>
                     </ul>
                     <ul className="flex flex-col gap-2">
-                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="">Service</a></li>
-                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="">Technical support</a></li>
-                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="">Testing</a></li>
-                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="">Development</a></li>
-                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="">AWS/Azure</a></li>
-                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="">Consulting</a></li>
-                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="">Information Technology</a></li>
+                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="/service">Service</a></li>
+                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="/technical-support">Technical support</a></li>
+                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="/testing">Testing</a></li>
+                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="/development">Development</a></li>
+                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="/aws-azure">AWS/Azure</a></li>
+                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="/consulting">Consulting</a></li>
+                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="/information-technology">Information Technology</a></li>
                     </ul>
                     <ul className="flex flex-col gap-2">
-                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="">Resourses</a></li>
-                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="">About</a></li>
-                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="">Testimonials</a></li>
-                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="">Privacy Policy</a></li>
-                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="">Terms of use</a></li>
-                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="">Blog</a></li>
+                        <li className="text-[#232536] text-[16px] font-semibold leading-[175%]"><a href="/resources">Resourses</a></li>
+                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="/about">About</a></li>
+                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="/testimonial">Testimonials</a></li>
+                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="/terms-of-use">Terms of use</a></li>
+                        <li className="text-[#232536] text-[14px] font-medium leading-[143%]"><a href="/blog">Blog</a></li>
                     </ul>
                 </div>
                 <div className="flex justify-between">
@@ -57,10 +57,10 @@ export default function Footer(){
                 </div>
                 </div>
 
-                <span className="size-[20px] absolute left-[10%] top-0 bg-[#FFA155]"></span>
-                <span className="size-[10px] absolute left-[11%] top-0 bg-[#FFD3AF]"></span>
-                <span className="size-[10px] absolute left-[11.9%] top-0 bg-[#444CFC]"></span>
-                <span className="size-[7px] absolute left-[10%] top-5 bg-[#444CFC]"></span>
+                <span className="size-[20px] absolute left-[10%] top-5 bg-[#FFA155]"></span>
+                <span className="size-[10px] absolute left-[11%] top-5 bg-[#FFD3AF]"></span>
+                <span className="size-[10px] absolute left-[11.9%] top-5 bg-[#444CFC]"></span>
+                <span className="size-[7px] absolute left-[10%] top-10 bg-[#444CFC]"></span>
             </div>
 
             

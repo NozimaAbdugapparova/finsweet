@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
-header li:first-child::before{
+
+nav li:first-child::before{
     position: absolute;
     top:0;
     content: "";
@@ -8,4 +9,8 @@ header li:first-child::before{
     height: 3px;
     display: flex;
     background-color: #ffa155;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
 }

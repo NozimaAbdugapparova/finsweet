@@ -32,6 +32,8 @@ export default function Section2 (){
                         <span className="absolute bg-[#FFD3AF] w-50 h-1 bottom-0 left-30"></span>
                         <span className="absolute bg-[#444CFC] w-30 h-1 bottom-0 left-80"></span>
                     </div>
+
+                    <span className="absolute bg-[#444CFC] size-[14px] -top-3 left-0"></span>
                 </div>
             </div>
         </section>
